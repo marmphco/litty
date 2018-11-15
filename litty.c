@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
         if (needs_flame || c == '\n')
         {
             needs_flame = !needs_flame || c == '\n';
-            fputs(FLAME, stdout);
+            fputs(flame, stdout);
         }
         putchar(c);
     }
