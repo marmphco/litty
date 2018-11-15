@@ -8,3 +8,11 @@ Writes stdin to stdout with 🔥
 $ echo hello, world | litty
 🔥hello, world🔥
 ```
+
+## Building
+
+`make`
+
+## Installation
+
+`make install`
